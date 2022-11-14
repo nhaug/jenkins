@@ -11,6 +11,11 @@ pipeline {
                 sh "ls -al"
             }
         }
+        stage("checkout") {
+            steps {
+                echo "jetzt muss checkout erfolgen"
+            }
+        }
         stage("start") {
             steps {
                 echo "jetzt wirklich"
