@@ -1,7 +1,7 @@
 pipeline {
   agent { label "nhaug" }
   stages {
-   stage {
+   stage("start) {
     steps {
      echo "jetzt wirklich"
     }
